@@ -1,5 +1,5 @@
 import React from "react";
-import guy from "../../assets/guy.png";
+
 import MyButton from "../MyButton";
 import { Link } from "react-router-dom";
 const UploadCv = () => {
