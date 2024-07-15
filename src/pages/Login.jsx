@@ -25,6 +25,7 @@ const Login = () => {
   const onSubmit=async(data)=>{
     setIsSubmitting(true);
     // Handle form submission
+    data.email=data.email.toLowerCase()
     try {
       const { data: result } = await axios.post(
         "https://jobme-tayo.onrender.com/api/v1/login",
